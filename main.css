@@ -1,0 +1,55 @@
+html{
+  height: 100%;
+  margin: 0; 
+  padding: 0
+}
+body{
+  height: 100%; 
+  margin: 0; 
+  padding: 0
+}
+#map-canvas{
+  height: 100%;
+  margin: 0; 
+  padding: 0;
+}
+#sidebar {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  right: 1%;
+  top: 5%;
+  height: 92%;
+  width: 340px;
+  z-index: 5;
+  border: 1px solid #999;
+  opacity: 0.9;
+  background: #fff
+}
+#picture-grid {
+  position: absolute;
+  height: 90%;
+  bottom: 1%;
+  padding: 5px;
+  font-size: small;
+  overflow: auto
+}
+#location-box {
+  width: 75%;
+  margin-right: 5px
+}
+#search {
+  position: absolute;
+  top: 1%;
+  height: 5%;
+  width: 90%;
+  padding: 5px 10px 5px 10px
+}
+#sidebar:hover {
+  opacity: 1
+}
+.instagram-picture {
+  padding: 2px
+}
+.msg-box {
+  padding: 5px
+}

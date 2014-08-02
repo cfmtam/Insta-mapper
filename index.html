@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Insta-mapper</title>
+    <link href="main.css" rel="stylesheet">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?sensor=false&v=3.ex&libraries=places"></script>
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+    <div id="sidebar">
+      <div id="search">
+        <input id="location-box" placeholder="Enter location" onFocus="ct.autoComplete()" onkeypress="ct.searchLocation(event)" type="text"></input><button type="button" id="search-btn" onclick="ct.search()">Search</button>
+      </div>
+      <div id="picture-grid"></div>
+    </div>
+  </body>
+</html>
